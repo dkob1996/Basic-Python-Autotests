@@ -1,22 +1,12 @@
-2023-12-18 22:23:47,294 INFO Result def(checkout): 
+2023-12-19 00:22:02,265 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
 
-Open archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
---
-Path = /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
-Type = 7z
-Physical Size = 614
-Headers Size = 266
-Method = LZMA2:13
-Solid = +
-Blocks = 1
-
 Scanning the drive:
 2 folders, 5 files, 6171 bytes (7 KiB)
 
-Updating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
 
 Add new data to archive: 2 folders, 5 files, 6171 bytes (7 KiB)
 
@@ -25,15 +15,18 @@ Files read from disk: 5
 Archive size: 614 bytes (1 KiB)
 Everything is Ok
 
-2023-12-18 22:23:47,298 INFO Result def(checkout): 
+2023-12-19 00:22:02,269 INFO Result def(checkout): 
  arx2.7z
 
-2023-12-18 22:23:47,298 INFO Step 1: 
- Result 1:
-True 
- Result 2:
+2023-12-19 00:22:02,269 INFO Step 1: 
+ Result:
 True
-2023-12-18 22:23:47,304 INFO Result def(checkout): 
+
+2023-12-19 00:22:02,269 INFO Step 1: 
+ Result:
+True
+
+2023-12-19 00:22:02,274 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
@@ -58,7 +51,7 @@ Files: 5
 Size:       6171
 Compressed: 614
 
-2023-12-18 22:23:47,308 INFO Result def(checkout): 
+2023-12-19 00:22:02,278 INFO Result def(checkout): 
  file1.txt
 file2.txt
 file3.txt
@@ -66,12 +59,15 @@ folder1
 folder2
 test.txt
 
-2023-12-18 22:23:47,309 INFO Step 2: 
- Result 1:
-True 
- Result 2:
+2023-12-19 00:22:02,278 INFO Step 2: 
+ Result:
 True
-2023-12-18 22:23:47,313 INFO Result def(checkout): 
+
+2023-12-19 00:22:02,278 INFO Step 2: 
+ Result:
+True
+
+2023-12-19 00:22:02,282 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
@@ -96,10 +92,11 @@ Files: 5
 Size:       6171
 Compressed: 614
 
-2023-12-18 22:23:47,314 INFO Step 3: 
+2023-12-19 00:22:02,282 INFO Step 3: 
  Result:
 True
-2023-12-18 22:23:47,320 INFO Result def(checkout): 
+
+2023-12-19 00:22:02,287 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
@@ -127,10 +124,11 @@ Files read from disk: 1
 Archive size: 1262 bytes (2 KiB)
 Everything is Ok
 
-2023-12-18 22:23:47,320 INFO Step 4: 
+2023-12-19 00:22:02,288 INFO Step 4: 
  Result:
 True
-2023-12-18 22:23:47,326 INFO Result def(checkout): 
+
+2023-12-19 00:22:02,292 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
@@ -156,10 +154,11 @@ Files read from disk: 0
 Archive size: 32 bytes (1 KiB)
 Everything is Ok
 
-2023-12-18 22:23:47,326 INFO Step 5: 
+2023-12-19 00:22:02,292 INFO Step 5: 
  Result:
 True
-2023-12-18 22:23:47,332 INFO Result def(checkout): 
+
+2023-12-19 00:22:02,297 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
@@ -185,15 +184,18 @@ Files read from disk: 5
 Archive size: 614 bytes (1 KiB)
 Everything is Ok
 
-2023-12-18 22:23:47,336 INFO Result def(checkout): 
+2023-12-19 00:22:02,301 INFO Result def(checkout): 
  arx2.7z
 
-2023-12-18 22:23:47,336 INFO Step 1: 
- Result 1:
-True 
- Result 2:
+2023-12-19 00:22:02,301 INFO Step 1: 
+ Result:
 True
-2023-12-18 22:23:47,341 INFO Result def(checkout): 
+
+2023-12-19 00:22:02,301 INFO Step 1: 
+ Result:
+True
+
+2023-12-19 00:22:02,306 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
@@ -224,10 +226,11 @@ Blocks = 1
 ------------------- ----- ------------ ------------  ------------------------
 2023-12-18 01:37:55               6171          348  5 files, 2 folders
 
-2023-12-18 22:23:47,341 INFO Step 6: 
+2023-12-19 00:22:02,306 INFO Step 6: 
  Result:
 True
-2023-12-18 22:23:47,347 INFO Result def(checkout): 
+
+2023-12-19 00:22:02,311 INFO Result def(checkout): 
  
 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
  64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
@@ -252,19 +255,26 @@ Files: 5
 Size:       6171
 Compressed: 614
 
-2023-12-18 22:23:47,347 INFO Step 7: 
- Result 1:
-True 
- Result 2:
+2023-12-19 00:22:02,312 INFO Step 7: 
+ Result:
 True
-2023-12-18 22:23:47,349 INFO Result def(calculate_crc32c): 
- 20ca2a3a
-2023-12-18 22:23:47,352 INFO Result def(checkhash): 
- 
-2023-12-18 22:23:47,352 INFO Step 8: 
- Expected Hash:
-20CA2A3A 
- Actual Hash:
 
-2023-12-18 22:23:47,352 ERROR Step 8: Test8 Fail: 
+2023-12-19 00:22:02,312 INFO Step 7: 
+ Result:
+True
+
+2023-12-19 00:22:02,314 INFO Result def(calculate_crc32c): 
+ 20ca2a3a
+2023-12-19 00:22:02,317 INFO Result def(checkhash): 
+ 
+2023-12-19 00:22:02,317 INFO Step 8: 
+ Result:
+20CA2A3A
+
+2023-12-19 00:22:02,317 INFO Step 8: 
+ Result:
+
+
+2023-12-19 00:22:02,317 ERROR Step 8: Test8 Fail: 
  Hash mismatch: Expected 20CA2A3A, Actual 
+
