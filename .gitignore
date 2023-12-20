@@ -1,0 +1,4 @@
+**/archive
+*.json
+*.html
+/Sem2/Task1/__pycache__
