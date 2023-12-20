@@ -1,102 +1,226 @@
 import os
-from checkers import checkout
-from checkers import calculate_crc32c
-from checkers import checkhash
-from logging_fucn import log_step_info
-from logging_fucn import log_assert_error
-from messages import error_message
+import string
+import random
+import pytest
+from checkers import checkout, calculate_crc32c, checkhash
+from logging_fucn import log_step_info, log_assert_error
+from messages import error_message, positive_result
 
 folder_in = '/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/in'
 folder_out1 = '/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1'
 folder_out2 = '/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out2'
 folder_out3 = '/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out3'
 
+# создание папок для тестовых данных
+@pytest.fixture()
+def make_folders():
+    return checkout('mkdri {} {} {} {}'.format(folder_in, folder_out1,folder_out2,folder_out3), '')
+
+# очистка папок с тестовыми данными после тестов
+@pytest.fixture()
+def clear_folders():
+    return checkout('rm -rf {}/* {}/* {}/* {}/*'.format(folder_in, folder_out1,folder_out2,folder_out3), '')
+
+# создание тестовых файлов
+# k - длина строки
+# range(5) - 5 файлов
+@pytest.fixture()
+def make_files():
+    list_of_files = []
+    for i in range(5):
+        filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
+        if checkout('cd {}; dd if=/dev/urandom of={} bs=1M count=1 iflag=fullblock'.format(folder_in, filename),''):
+            list_of_files.append(filename)
+    return list_of_files
+
+# создание подпапки и файла в нем
+@pytest.fixture()
+def make_subfolder():
+    testfile_name = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
+    subfolder_name = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
+    if not checkout('cd {}; mkdir {}'.format(folder_in, subfolder_name), ''):
+        return None, None
+    if not checkout('cd {}/{}; dd if=/dev/urandom of={} bs=1M count=1 iflag=fullblock'.format(folder_in, subfolder_name, 
+                                                                                          testfile_name),''):
+        return subfolder_name, None
+    else:
+        return subfolder_name, testfile_name
+    
+
+
 # Простая архивация
-def test_step1():
+def test_step1(make_folders, clear_folders, make_files):
     STEP = 1
     try:
-        res1 = checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', 'Everything is Ok')
-        res2 = checkout(f'ls {folder_out1}', 'arx2.7z')
-        log_step_info(STEP,res1)
-        log_step_info(STEP,res2)
-        assert res1 and res2, error_message(STEP)
+        res = []
+        res.append(checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', positive_result()))
+        log_step_info(STEP,res)
+        res.append(checkout(f'ls {folder_out1}', 'arx2.7z'))
+        log_step_info(STEP,res)
+        assert all(res), error_message(STEP)
     except AssertionError as e:
         log_assert_error(STEP, str(e))
 
 # Простое извлечение
-def test_step2(): 
+def test_step2(clear_folders, make_files): 
     STEP = 2
     try:
-        res1 = checkout(f'cd {folder_out1}; 7zz e arx2.7z -o{folder_out2} -y', 'Everything is Ok')
-        res2 = checkout(f'ls {folder_out2} ', 'test.txt')
-        log_step_info(STEP,res1)
-        log_step_info(STEP,res2)
-        assert res1 and res2, "test2 Fail"
+        res = []
+        res.append(checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', positive_result()))
+        log_step_info(STEP,res)
+        res.append(checkout(f'cd {folder_out1}; 7zz e arx2.7z -o{folder_out2} -y', positive_result()))
+        log_step_info(STEP,res)
+        for item in make_files:
+            res.append(checkout(f'ls {folder_out2} ', item))
+            log_step_info(STEP,res)
+        assert all(res), "test2 Fail"
     except AssertionError as e:
         log_assert_error(STEP, str(e))
 
 # Тест архивирования
-def test_step3():
+def test_step3(make_folders, clear_folders, make_files):
     STEP = 3
     try:
-        res = checkout (f'cd {folder_out1}; 7zz t arx2.7z', 'Everything is Ok')
+        res = checkout (f'cd {folder_out1}; 7zz t arx2.7z', positive_result())
         log_step_info(STEP,res)
         assert res, error_message(STEP)
     except AssertionError as e:
         log_assert_error(STEP, str(e))
 
 # Обновление архива
-def test_step4():
+def test_step4(make_folders, clear_folders, make_files):
     STEP = 4
     try:
-        res = checkout (f'cd {folder_out1}; 7zz u arx2.7z', 'Everything is Ok')
+        res = []
+        res.append(checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', positive_result()))
         log_step_info(STEP,res)
-        assert res, error_message(STEP)
+        res.append(checkout(f'cd {folder_out1}; 7zz u arx2.7z', positive_result()))
+        log_step_info(STEP,res)
+        assert all(res), error_message(STEP)
     except AssertionError as e:
         log_assert_error(STEP, str(e))
     
 # Удаление данных из архива
-def test_step5():
+def test_step5(make_folders, clear_folders, make_files):
     STEP = 5
     try:
-        res = checkout (f'cd {folder_out1}; 7zz d arx2.7z', 'Everything is Ok')
+        res = []
+        res.append(checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', positive_result()))
         log_step_info(STEP,res)
-        assert res, error_message(STEP)
+        res.append(checkout(f'cd {folder_out1}; 7zz d arx2.7z', positive_result()))
+        log_step_info(STEP,res)
+        assert all(res), error_message(STEP)
     except AssertionError as e:
         log_assert_error(STEP, str(e))
 
 # Просмотр файлов в архиве
-def test_step6(): 
+def test_step6(make_folders, clear_folders, make_files): 
     STEP = 6
     try:
-        res = checkout (f'cd {folder_out1}; 7zz l arx2.7z', 'test.txt')
+        res = []
+        res.append(checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', positive_result()))
         log_step_info(STEP,res)
-        assert res, error_message(STEP)
+        for item in make_files:
+            res.append(checkout (f'cd {folder_out1}; 7zz l arx2.7z', item))
+            log_step_info(STEP,res)
+        assert all(res), error_message(STEP)
     except AssertionError as e:
         log_assert_error(STEP, str(e))
 
 # Извлечение с общим путем
-def test_step7():
+def test_step7(clear_folders, make_files, make_subfolder):
     STEP = 7
     try:
-        res1 = checkout (f'cd {folder_out1}; 7zz x arx2.7z -o{folder_out3} -y', 'Everything is Ok')
-        res2 = os.path.exists(os.path.join(folder_out3, 'folder1', 'file1.txt')) and os.path.exists(os.path.join(folder_out3, 'folder2', 'file2.txt')) and os.path.exists(os.path.join(folder_out3, 'file3.txt'))
-        log_step_info(STEP,res1)
-        log_step_info(STEP,res2)
-        assert res1 and res2, error_message(STEP)
+        res = []
+        # архивация
+        res.append(checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', positive_result()))
+        log_step_info(STEP,res)
+        # разархивация
+        res.append(checkout (f'cd {folder_out1}; 7zz x arx2.7z -o{folder_out3} -y', positive_result()))
+        log_step_info(STEP,res)
+        # проверка с помощью subprocess что есть файлы не в под папке 
+        for item in make_files:
+            res.append(checkout(f'ls {folder_out3}', item))
+            log_step_info(STEP,res)
+        # проверка с помощью os что есть файлы не в под папке 
+        for item in make_files:
+            res.append(os.path.exists(os.path.join(folder_out3, item)))
+            log_step_info(STEP,res)
+        # проверка с помощью subprocess что есть подпапка 
+        res.append(checkout(f'ls {folder_out3}', make_subfolder[0]))
+        log_step_info(STEP,res)
+        # проверка с помощью subprocess что в подпапке есть файл
+        res.append(checkout(f'ls {folder_out3}', make_subfolder[1]))
+        log_step_info(STEP,res)
+        # проверка с помощью os что в подпапке есть файл
+        res.append(os.path.exists(os.path.join(folder_out3, make_subfolder[0], make_subfolder[1])))
+        log_step_info(STEP,res)
+        assert all(res), error_message(STEP)
     except AssertionError as e:
         log_assert_error(STEP, str(e))
     
-def test_step8():
+def test_step8(make_folders, clear_folders, make_files):
     STEP = 8
     try:
-        expected_hash = calculate_crc32c(os.path.join(folder_out1, 'arx2.7z')).upper()
+        res = []
+        # архивация
+        res.append(checkout(f'cd {folder_in}; 7zz a {folder_out1}/arx2', positive_result()))
+        log_step_info(STEP,res)
+        # разархивация
+        res.append(checkout(f'cd {folder_out1}; 7zz e arx2.7z -o{folder_out2} -y', positive_result()))
+        log_step_info(STEP,res)
+        
+        # проверка хэша файлов до разархивации
+        for item in make_files:
+            res.append(checkout(f'cd {folder_in}; 7zz h {item}', positive_result()))
+            log_step_info(STEP, res)
+            ## считаем хэш через 7z
+            actual_hash = checkhash(f'cd {folder_in}; 7zz h {item}')
+            log_step_info(STEP, actual_hash)
+            ## считаем хэш через аналог crc32 для macos - cksum
+            expected_hash = calculate_crc32c(os.path.join(folder_in, item)).upper()
+            log_step_info(STEP, expected_hash)
+            ## сравниваем хэши
+            res.append(checkout(f'cd {folder_in}; 7zz h {item}', expected_hash))
+            log_step_info(STEP,res)
+       
+        # проверка хэша архива
+        ## проверяем что хэш успешно посчитался через 7z
+        res.append(checkout(f'cd {folder_out1}; 7zz h arx2.7z', positive_result()))
+        log_step_info(STEP, res)
+        ## считаем хэш через 7z
         actual_hash = checkhash(f'cd {folder_out1}; 7zz h arx2.7z')
-        log_step_info(STEP,expected_hash)
-        log_step_info(STEP,actual_hash)
-        assert expected_hash in actual_hash, f"{error_message(STEP)}: \n Hash mismatch: Expected {expected_hash}, Actual {actual_hash}"
+        log_step_info(STEP, actual_hash)
+        ## считаем хэш через аналог crc32 для macos - cksum
+        expected_hash = calculate_crc32c(os.path.join(folder_out1, 'arx2.7z')).upper()
+        log_step_info(STEP, expected_hash)
+        ## сравниваем хэши
+        res.append(checkout(f'cd {folder_out1}; 7zz h arx2.7z', expected_hash))
+        log_step_info(STEP,res)
+        
+        # проверка хэша файлов после разархивации
+        ## проверяем что хэш успешно посчитался через 7z
+        for item in make_files:
+            res.append(checkout(f'cd {folder_out2}; 7zz h {item}', positive_result()))
+            log_step_info(STEP, res)
+            ## считаем хэш через 7z
+            actual_hash = checkhash(f'cd {folder_out2}; 7zz h {item}')
+            log_step_info(STEP, actual_hash)
+            ## считаем хэш через аналог crc32 для macos - cksum
+            expected_hash = calculate_crc32c(os.path.join(folder_out2, item)).upper()
+            log_step_info(STEP, expected_hash)
+            ## сравниваем хэши
+            res.append(checkout(f'cd {folder_out2}; 7zz h {item}', expected_hash))
+            log_step_info(STEP,res)
+
+        assert all(res), f"{error_message(STEP)}: \n Hash mismatch: Expected {expected_hash}, Actual {actual_hash}"
     except AssertionError as e:
         log_assert_error(STEP, str(e))
+
+# очищаем все папки с файлами и проверяем что отчистилось
+def test_step0(clear_folders):
+    STEP = 0
+    assert clear_folders, error_message(STEP, clear_folders)
 
 if __name__ == '__main__':
     test_step1()
@@ -110,5 +234,6 @@ if __name__ == '__main__':
     test_step7()
     test_step8()
 
+    test_step0()
     
     
