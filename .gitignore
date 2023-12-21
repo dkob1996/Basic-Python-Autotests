@@ -2,3 +2,4 @@
 *.json
 *.html
 /Sem2/Task1/__pycache__
+*.DS_Store
