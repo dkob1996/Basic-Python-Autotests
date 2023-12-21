@@ -1,0 +1,3260 @@
+2023-12-22 00:49:1703184583 INFO Negative Step 1
+2023-12-22 00:49:1703184583 INFO Result def(checkout_negative): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+
+2023-12-22 00:49:1703184583 INFO Negative Step 2
+2023-12-22 00:49:1703184583 INFO Result def(checkout_negative): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive:
+10 files, 10485760 bytes (10 MiB)
+
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+
+Add new data to archive: 10 files, 10485760 bytes (10 MiB)
+
+
+Files read from disk: 10
+Archive size: 10486721 bytes (11 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184583 INFO Step 1: 
+ Result:
+[True]
+
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ arx2.7z
+
+2023-12-22 00:49:1703184583 INFO Step 1: 
+ Result:
+[True, True]
+
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184583 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive:
+10 files, 10485760 bytes (10 MiB)
+
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+
+Add new data to archive: 10 files, 10485760 bytes (10 MiB)
+
+
+Files read from disk: 10
+Archive size: 10486723 bytes (11 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486723 bytes (11 MiB)
+
+Extracting archive: arx2.7z
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486723
+Headers Size = 311
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Files: 10
+Size:       10485760
+Compressed: 10486723
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 2ISHU
+3VVMS
+BGKX6
+E2B0U
+E3MTM
+F0HX8
+FYTH6
+K61OU
+N2JJW
+XH829
+
+2023-12-22 00:49:1703184584 INFO Step 2: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+
+2023-12-22 00:49:1703184584 INFO Step 3: 
+ Result:
+False
+
+2023-12-22 00:49:1703184584 ERROR 3:
+ Test3 Fail
+assert False
+Traceback (most recent call last):
+  File "/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_positive.py", line 47, in test_step3
+    assert res, error_message(STEP)
+AssertionError: Test3 Fail
+assert False
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184584 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive:
+10 files, 10485760 bytes (10 MiB)
+
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+
+Add new data to archive: 10 files, 10485760 bytes (10 MiB)
+
+
+Files read from disk: 10
+Archive size: 10486727 bytes (11 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184584 INFO Step 4: 
+ Result:
+[True]
+
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Open archive: arx2.7z
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486727
+Headers Size = 315
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+Scanning the drive:
+2 files, 10492875 bytes (11 MiB)
+
+Updating archive: arx2.7z
+
+Keep old data in archive: 10 files, 10485760 bytes (10 MiB)
+Add new data to archive: 2 files, 10492875 bytes (11 MiB)
+
+
+Files read from disk: 2
+Archive size: 20975151 bytes (21 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184585 INFO Step 4: 
+ Result:
+[True, True]
+
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive:
+10 files, 10485760 bytes (10 MiB)
+
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+
+Add new data to archive: 10 files, 10485760 bytes (10 MiB)
+
+
+Files read from disk: 10
+Archive size: 10486723 bytes (11 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184585 INFO Step 5: 
+ Result:
+[True]
+
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Open archive: arx2.7z
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486723
+Headers Size = 311
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+Updating archive: arx2.7z
+
+
+Delete data from archive: 10 files, 10485760 bytes (10 MiB)
+Add new data to archive: 0 files, 0 bytes
+
+
+Files read from disk: 0
+Archive size: 32 bytes (1 KiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184585 INFO Step 5: 
+ Result:
+[True, True]
+
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184585 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive:
+10 files, 10485760 bytes (10 MiB)
+
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+
+Add new data to archive: 10 files, 10485760 bytes (10 MiB)
+
+
+Files read from disk: 10
+Archive size: 10486719 bytes (11 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486719 bytes (11 MiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486719
+Headers Size = 307
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45 ....A      1048576     10486412  14QJB
+2023-12-22 00:49:45 ....A      1048576               197K2
+2023-12-22 00:49:45 ....A      1048576               737B8
+2023-12-22 00:49:45 ....A      1048576               7H10P
+2023-12-22 00:49:45 ....A      1048576               A5RCD
+2023-12-22 00:49:45 ....A      1048576               CHMYJ
+2023-12-22 00:49:45 ....A      1048576               KZ9NM
+2023-12-22 00:49:45 ....A      1048576               SY3F0
+2023-12-22 00:49:45 ....A      1048576               TZ7W0
+2023-12-22 00:49:45 ....A      1048576               U073S
+------------------- ----- ------------ ------------  ------------------------
+2023-12-22 00:49:45           10485760     10486412  10 files
+
+2023-12-22 00:49:1703184586 INFO Step 6: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive:
+1 folder, 11 files, 11534336 bytes (11 MiB)
+
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+
+Add new data to archive: 1 folder, 11 files, 11534336 bytes (11 MiB)
+
+
+Files read from disk: 11
+Archive size: 11535397 bytes (12 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 11535397 bytes (12 MiB)
+
+Extracting archive: arx2.7z
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 11535397
+Headers Size = 346
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Folders: 1
+Files: 11
+Size:       11534336
+Compressed: 11535397
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 097UO
+0R800
+68IM8
+7B26T
+A6B4M
+FWWLY
+H6QCV
+HJ17G
+UZ3JX
+VVREB
+VXE4S
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False]
+
+2023-12-22 00:49:1703184586 INFO Step 7: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True]
+
+2023-12-22 00:49:1703184586 ERROR 7:
+ Test7 Fail
+assert False
+ +  where False = all([True, True, True, True, True, True, ...])
+Traceback (most recent call last):
+  File "/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_positive.py", line 119, in test_step7
+    assert all(res), error_message(STEP)
+AssertionError: Test7 Fail
+assert False
+ +  where False = all([True, True, True, True, True, True, ...])
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184586 INFO Result def(checkout): 
+ 
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive:
+10 files, 10485760 bytes (10 MiB)
+
+Creating archive: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1/arx2.7z
+
+Add new data to archive: 10 files, 10485760 bytes (10 MiB)
+
+
+Files read from disk: 10
+Archive size: 10486724 bytes (11 MiB)
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning the drive for archives:
+1 file, 10486724 bytes (11 MiB)
+
+Extracting archive: arx2.7z
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 10486724
+Headers Size = 312
+Method = LZMA2:12m
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Files: 10
+Size:       10485760
+Compressed: 10486724
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 39cf48b0
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+39CF48B0
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ dd12ce41
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+DD12CE41
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ d335252d
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+D335252D
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ a0d6f5c8
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+A0D6F5C8
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 15a77633
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+15A77633
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ f70ee50a
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+F70EE50A
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ d71654ee
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+D71654EE
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 8eca06a5
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+8ECA06A5
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 911a1f43
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+911A1F43
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ f36b77fb
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+F36B77FB
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 10486724 bytes (11 MiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+27B045C2      10486724  arx2.7z
+-------- -------------  ------------
+27B045C2      10486724  
+
+Size: 10486724
+
+CRC32  for data:              27B045C2
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 10486724 bytes (11 MiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+27B045C2      10486724  arx2.7z
+-------- -------------  ------------
+27B045C2      10486724  
+
+Size: 10486724
+
+CRC32  for data:              27B045C2
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 10486724 bytes (11 MiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+27B045C2      10486724  arx2.7z
+-------- -------------  ------------
+27B045C2      10486724  
+
+Size: 10486724
+
+CRC32  for data:              27B045C2
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 27b045c2
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+27B045C2
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 10486724 bytes (11 MiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+27B045C2      10486724  arx2.7z
+-------- -------------  ------------
+27B045C2      10486724  
+
+Size: 10486724
+
+CRC32  for data:              27B045C2
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 39cf48b0
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+39CF48B0
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+39CF48B0       1048576  3K1HV
+-------- -------------  ------------
+39CF48B0       1048576  
+
+Size: 1048576
+
+CRC32  for data:              39CF48B0
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ dd12ce41
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+DD12CE41
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DD12CE41       1048576  4WULG
+-------- -------------  ------------
+DD12CE41       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DD12CE41
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ d335252d
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+D335252D
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D335252D       1048576  6ZH5U
+-------- -------------  ------------
+D335252D       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D335252D
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ a0d6f5c8
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+A0D6F5C8
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+A0D6F5C8       1048576  IG56A
+-------- -------------  ------------
+A0D6F5C8       1048576  
+
+Size: 1048576
+
+CRC32  for data:              A0D6F5C8
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 15a77633
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+15A77633
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+15A77633       1048576  BAGX4
+-------- -------------  ------------
+15A77633       1048576  
+
+Size: 1048576
+
+CRC32  for data:              15A77633
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ f70ee50a
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+F70EE50A
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F70EE50A       1048576  2ZVJJ
+-------- -------------  ------------
+F70EE50A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F70EE50A
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ d71654ee
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+D71654EE
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+D71654EE       1048576  DNBJJ
+-------- -------------  ------------
+D71654EE       1048576  
+
+Size: 1048576
+
+CRC32  for data:              D71654EE
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 8eca06a5
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+8ECA06A5
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+8ECA06A5       1048576  QQFMO
+-------- -------------  ------------
+8ECA06A5       1048576  
+
+Size: 1048576
+
+CRC32  for data:              8ECA06A5
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ 911a1f43
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+911A1F43
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+911A1F43       1048576  G8BDH
+-------- -------------  ------------
+911A1F43       1048576  
+
+Size: 1048576
+
+CRC32  for data:              911A1F43
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkhash): 
+ 7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Result def(calculate_crc32c): 
+ f36b77fb
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+F36B77FB
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 
+7-Zip (z) 23.01 (arm64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit arm_v:8 locale=ru_RU.UTF-8 Threads:8 OPEN_MAX:10496, ASM
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+F36B77FB       1048576  MX5NB
+-------- -------------  ------------
+F36B77FB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              F36B77FB
+
+Everything is Ok
+
+2023-12-22 00:49:1703184587 INFO Step 8: 
+ Result:
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+
+2023-12-22 00:49:1703184587 INFO Result def(checkout): 
+ 

@@ -26,3 +26,6 @@ def log_check_hash(output_hash):
 
 def log_check_crc32_hash(crc32c_hash):
     logging.info(f'Result def(calculate_crc32c): \n {crc32c_hash}')
+
+def log_exception(step, message):
+    logging.exception(f'{step}:\n {message}')

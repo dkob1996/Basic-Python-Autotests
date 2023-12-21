@@ -1,8 +1,9 @@
 import os
 import yaml
 from checkers import checkout, calculate_crc32c, checkhash
-from logging_fucn import log_step_info, log_assert_error
+from logging_fucn import log_step_info, log_assert_error, log_exception
 from messages import error_message, positive_result
+import logging
 
 with open('/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/config.yaml') as f:
     data = yaml.safe_load(f)
@@ -13,12 +14,13 @@ def test_step1(make_folders, clear_folders, make_files):
     try:
         res = []
         res.append(checkout(f'cd {data["folder_in"]}; 7zz a {data["folder_out1"]}/arx2', positive_result()))
+        #logging.info('step1')
         log_step_info(STEP,res)
         res.append(checkout(f'ls {data["folder_out1"]}', 'arx2.7z'))
         log_step_info(STEP,res)
         assert all(res), error_message(STEP)
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+        log_exception(STEP, e)
 
 # Простое извлечение
 def test_step2(clear_folders, make_files): 
@@ -34,7 +36,7 @@ def test_step2(clear_folders, make_files):
             log_step_info(STEP,res)
         assert all(res), "test2 Fail"
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+        log_exception(STEP, e)
 
 # Тест архивирования
 def test_step3(make_folders, clear_folders, make_files):
@@ -44,7 +46,7 @@ def test_step3(make_folders, clear_folders, make_files):
         log_step_info(STEP,res)
         assert res, error_message(STEP)
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+        log_exception(STEP, e)
 
 # Обновление архива
 def test_step4(make_folders, clear_folders, make_files):
@@ -57,7 +59,7 @@ def test_step4(make_folders, clear_folders, make_files):
         log_step_info(STEP,res)
         assert all(res), error_message(STEP)
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+        log_exception(STEP, e)
     
 # Удаление данных из архива
 def test_step5(make_folders, clear_folders, make_files):
@@ -70,7 +72,7 @@ def test_step5(make_folders, clear_folders, make_files):
         log_step_info(STEP,res)
         assert all(res), error_message(STEP)
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+        log_exception(STEP, e)
 
 # Просмотр файлов в архиве
 def test_step6(make_folders, clear_folders, make_files): 
@@ -84,7 +86,7 @@ def test_step6(make_folders, clear_folders, make_files):
             log_step_info(STEP,res)
         assert all(res), error_message(STEP)
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+       log_exception(STEP, e)
 
 # Извлечение с общим путем
 def test_step7(clear_folders, make_files, make_subfolder):
@@ -116,7 +118,7 @@ def test_step7(clear_folders, make_files, make_subfolder):
         log_step_info(STEP,res)
         assert all(res), error_message(STEP)
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+        log_exception(STEP, e)
     
 def test_step8(make_folders, clear_folders, make_files):
     STEP = 8
@@ -174,7 +176,7 @@ def test_step8(make_folders, clear_folders, make_files):
 
         assert all(res), f"{error_message(STEP)}: \n Hash mismatch: Expected {expected_hash}, Actual {actual_hash}"
     except AssertionError as e:
-        log_assert_error(STEP, str(e))
+        log_exception(STEP, e)
 
 # очищаем все папки с файлами и проверяем что отчистилось
 def test_step0(clear_folders):
