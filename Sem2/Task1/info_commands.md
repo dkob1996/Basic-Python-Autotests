@@ -18,6 +18,7 @@ pwd
 
 ## Установка yaml пакета
 python3 -m pip install pyyaml
+brew install libyaml
 
 ## Модули отчетности командами
 python3 -m pip install pytest-html
