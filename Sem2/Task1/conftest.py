@@ -2,6 +2,7 @@ import pytest
 from checkers import checkout
 import yaml
 import random, string
+from datetime import datetime
 
 with open('/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/config.yaml') as f:
     data = yaml.safe_load(f)
@@ -17,13 +18,11 @@ def clear_folders():
     return checkout('rm -rf {}/* {}/* {}/* {}/*'.format(data["folder_in"], data["folder_out1"],data["folder_out2"],data["folder_out3"]), '')
 
 # создание тестовых файлов
-# k - длина строки
-# range(5) - 5 файлов
 @pytest.fixture()
 def make_files():
     list_of_files = []
     for i in range(data["count_test_files"]):
-        filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
+        filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k = data["length_name_file"]))
         if checkout('cd {}; dd if=/dev/urandom of={} bs=1M count=1 iflag=fullblock'.format(data["folder_in"], filename),''):
             list_of_files.append(filename)
     return list_of_files
