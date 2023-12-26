@@ -1,0 +1,44 @@
+time:02:58:1703624306.334160 count:10 size;1M stat:
+time:02:58:1703624306.350958 count:10 size;1M stat:
+time:02:58:1703624306.382648 count:10 size;1M stat:
+time:02:58:1703624306.399239 count:10 size;1M stat:
+time:02:58:1703624306.421068 count:10 size;1M stat:
+time:02:58:1703624306.440969 count:10 size;1M stat:
+time:02:58:1703624306.461406 count:10 size;1M stat:
+time:02:58:1703624306.481599 count:10 size;1M stat:
+time:02:58:1703624306.498185 count:10 size;1M stat:
+time:02:58:1703624306.519155 count:10 size;1M stat:
+time:02:58:1703624306.534007 count:10 size;1M stat:
+time:02:59:1703624399.769969 count:10 size;1M stat:
+time:02:59:1703624399.784815 count:10 size;1M stat:
+time:02:59:1703624399.932169 count:10 size;1M stat:
+time:03:00:1703624400.123506 count:10 size;1M stat:
+time:03:00:1703624400.206933 count:10 size;1M stat:
+time:03:00:1703624400.580065 count:10 size;1M stat:
+time:03:00:1703624400.732104 count:10 size;1M stat:
+time:03:00:1703624400.924347 count:10 size;1M stat:
+time:03:00:1703624401.123164 count:10 size;1M stat:
+time:03:00:1703624401.718359 count:10 size;1M stat:
+time:03:00:1703624401.731751 count:10 size;1M stat:
+time:03:02:1703624552.963529 count:10 size;1M stat:{ 3,65 2,74 2,53 }
+
+time:03:02:1703624552.979391 count:10 size;1M stat:{ 3,65 2,74 2,53 }
+
+time:03:02:1703624553.123482 count:10 size;1M stat:{ 3,65 2,74 2,53 }
+
+time:03:02:1703624553.311336 count:10 size;1M stat:{ 3,65 2,74 2,53 }
+
+time:03:02:1703624553.391948 count:10 size;1M stat:{ 3,65 2,74 2,53 }
+
+time:03:02:1703624553.755035 count:10 size;1M stat:{ 3,59 2,74 2,53 }
+
+time:03:02:1703624553.901676 count:10 size;1M stat:{ 3,59 2,74 2,53 }
+
+time:03:02:1703624554.106941 count:10 size;1M stat:{ 3,59 2,74 2,53 }
+
+time:03:02:1703624554.301220 count:10 size;1M stat:{ 3,59 2,74 2,53 }
+
+time:03:02:1703624554.928669 count:10 size;1M stat:{ 3,59 2,74 2,53 }
+
+time:03:02:1703624554.941771 count:10 size;1M stat:{ 3,59 2,74 2,53 }
+

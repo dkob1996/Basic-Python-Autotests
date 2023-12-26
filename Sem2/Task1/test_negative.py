@@ -1,18 +1,20 @@
 from checkers import checkoutneg
 from logging_fucn import log_neg_step_info
+import yaml
 
-folder_out1 = '/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1'
-folder_out2 = '/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out2'
+with open('/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/config.yaml') as f:
+    data = yaml.safe_load(f)
+
 
 def test_negstep1():
     STEP = 1
     log_neg_step_info(STEP)
-    assert checkoutneg(f'cd {folder_out1}; 7zz e arx2bad.7z -o{folder_out2} -y', 'ERROR')
+    assert checkoutneg(f'cd {data["folder_out1"]}; 7zz e bad_arx.{data["arc_type"]} -o{data["folder_out2"]} -y', 'ERROR')
 
 def test_negstep2():
     STEP = 2
     log_neg_step_info(STEP)
-    assert checkoutneg(f'cd {folder_out1}; 7zz t arx2bad.7z', 'ERROR')
+    assert checkoutneg(f'cd {data["folder_out1"]}; 7zz t bad_arx.{data["arc_type"]}', 'ERROR')
 
 
 

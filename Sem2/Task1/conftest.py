@@ -1,5 +1,5 @@
 import pytest
-from checkers import checkout
+from checkers import checkout, getout
 import yaml
 import random, string
 from datetime import datetime
@@ -23,7 +23,7 @@ def make_files():
     list_of_files = []
     for i in range(data["count_test_files"]):
         filename = ''.join(random.choices(string.ascii_uppercase + string.digits, k = data["length_name_file"]))
-        if checkout('cd {}; dd if=/dev/urandom of={} bs=1M count=1 iflag=fullblock'.format(data["folder_in"], filename),''):
+        if checkout('cd {}; dd if=/dev/urandom of={} bs={} count=1 iflag=fullblock'.format(data["folder_in"], filename, data["bs"]),''):
             list_of_files.append(filename)
     return list_of_files
 
@@ -34,9 +34,28 @@ def make_subfolder():
     subfolder_name = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
     if not checkout('cd {}; mkdir {}'.format(data["folder_in"], subfolder_name), ''):
         return None, None
-    if not checkout('cd {}/{}; dd if=/dev/urandom of={} bs=1M count=1 iflag=fullblock'.format(data["folder_in"], subfolder_name, 
-                                                                                          testfile_name),''):
+    if not checkout('cd {}/{}; dd if=/dev/urandom of={} bs={} count=1 iflag=fullblock'.format(data["folder_in"], subfolder_name, 
+                                                                                          testfile_name, data["bs"]),''):
         return subfolder_name, None
     else:
         return subfolder_name, testfile_name
+    
+@pytest.fixture()
+def make_bad_arx():
+    checkout(f"cd {data['folder_in']}; 7z a -t{data['arc_type']}{data['folder_out']}/bad_arx",
+             "Everything is Ok")
+    checkout(f"truncate -s 1 {data['folder_out']}/bad_arx.{data['arc_type']}", "")
+
+@pytest.fixture(autouse=True)
+def print_time():
+    print(f'Start: {datetime.now().strftime("%H:%M:%s.%f")}')
+    yield
+    print(f'\nFinish: {datetime.now().strftime("%H:%M:%s.%f")}')
+
+@pytest.fixture(autouse=True)
+def stat_log():
+    yield
+    time = datetime.now().strftime("%H:%M:%s.%f")
+    stat = getout('sysctl -n vm.loadavg')
+    checkout(f"echo 'time:{time} count:{data['count_test_files']} size;{data['bs']} stat:{stat}' >> {data['stat_file_path']}", '')
     

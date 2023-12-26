@@ -35,3 +35,7 @@ def calculate_crc32c(file_path):
     crc32c_hex = hex(crc32c_hash)[2:]
     log_check_crc32_hash(crc32c_hex)
     return crc32c_hex
+
+def getout(cmd):
+    # add logging later
+    return subprocess.run(cmd,shell=True, stdout=subprocess.PIPE, encoding='utf-8').stdout

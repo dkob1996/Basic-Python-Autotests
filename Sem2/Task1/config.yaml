@@ -4,3 +4,8 @@ folder_out2: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2
 folder_out3: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out3
 count_test_files: 10
 length_name_file: 5
+bs: 1M
+type: zip
+arc_type: zip
+stat_file_path: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/7z_logs/stat.txt
+logging_file_path: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/7z_logs/7z_logs_checkers_def.log

@@ -1,9 +1,13 @@
 import logging
+import yaml
+
+with open('/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/config.yaml') as f:
+    data = yaml.safe_load(f)
 
 # Логгирование
 FORMAT = "%(asctime)s %(levelname)s %(message)s"
 logging.basicConfig(level=logging.INFO, 
-                    filename="/Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/7z_logs/7z_logs_checkers_def.log", 
+                    filename=data['logging_file_path'], 
                     filemode="a", format= FORMAT, encoding="utf-8")
 
 def log_assert_error(step, message):
