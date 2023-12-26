@@ -1,11 +1,19 @@
-folder_in: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/in
-folder_out1: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out1
-folder_out2: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out2
-folder_out3: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/test_arch/out3
+folder_in: /test_arch/in
+folder_out1: /test_arch/out1
+folder_out2: /test_arch/out2
+folder_out3: /test_arch/out3
 count_test_files: 10
 length_name_file: 5
 bs: 1M
 type: zip
 arc_type: zip
-stat_file_path: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/7z_logs/stat.txt
 logging_file_path: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/7z_logs/7z_logs_checkers_def.log
+
+
+# data for SSH
+ip: 0.0.0.0
+user: user2
+password: 1111
+valid: Everything is Ok
+
+stat_ssh_file_path: /Users/dmitrii_kobozev/Desktop/Python_autotests/Linux_AutoTest/Sem2/Task1/7z_logs/stat_ssh.txt
